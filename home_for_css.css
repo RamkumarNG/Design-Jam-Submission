@@ -1,0 +1,389 @@
+body
+{
+    padding:0;
+    margin:0;
+}
+.navbar
+{
+    background: linear-gradient(90deg,#233e6b,#871c2e);
+}
+.collapse
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.navbar-nav .nav-item .nav-link:hover
+{
+    font-weight: bolder;
+    color: #0f0f80;
+    padding-top: 10px;
+}
+.navbar-nav .nav-item .nav-link
+{
+    
+    font-family: 'Reggae One', cursive;
+}
+.nav-link
+{
+    color: aqua;
+    font-size: 17px;
+}
+.name
+{
+    color: black;
+    font-weight: 1000;
+    font-size: 36px;
+}
+#highlight
+{
+    color: black;
+    font-weight:500;
+}
+@media(max-width:1405px)
+{
+    .collapse
+    {
+        display: none;
+    }
+    .navbar-nav .nav-item .nav-link:hover
+    {
+        color: #0f0f80;
+        padding-left: 10px;
+    }
+}
+h2
+{
+    font-family: 'Linux Libertine','Georgia','Times',serif;
+    font-size: 188%;
+    font-weight: normal;
+    color: #000;
+    margin: 0;
+    padding-top: 0.5em;
+    padding-bottom: 0.17em;
+}
+.lm
+{
+    background-color: #f2f5f7;
+    #background-color: black;
+}
+.title
+{
+    text-align: center;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+}
+#pButton,#icareerButton,#ccareerButton,#homeButton:hover
+{
+    cursor: pointer;
+}
+.logo1
+{
+    height: 5vh;
+}
+.images
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 45vh;
+}
+.image
+{
+    border: 2px solid ;
+    border-radius: 10px;
+    box-shadow: 5px 5px 100px red;
+}
+#elife
+{
+    margin-top: 100px;
+    box-sizing:content-box;
+    width: 60%;
+    margin-left: 20%;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: linear-gradient(-45deg,#4f6dc9,#9c4343);
+}
+.title_for_elife
+{
+    padding-left: 5px;
+    padding-top: 5px;
+    font-size: 20px;
+    color: black;
+}
+.para_for_elife
+{
+    margin-right: 15px;
+    text-align: justify;
+    word-spacing: 8px;
+    padding-top: 5px;
+    margin-left: 25px;
+    font-size: 14px;
+}
+#main2,#main3
+{
+    background-color: #f2f5f7;
+}
+.icareer,.ccareer
+{
+    padding-left: 10px;
+    margin-top: 100px;
+    box-sizing:content-box;
+    width: 60%;
+    margin-left: 20%;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: linear-gradient(-45deg,#4f6dc9,#9c4343);
+}
+.image1,.image2,.image3,.image4
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-size: cover;
+    margin: 10px;
+}
+.image1
+{
+    background: url(http://s2.thingpic.com/images/Ge/hrieunLjpuQEh5KRc4ebSxu3.jpeg);
+    background-size: cover;
+    float: left;
+}
+.image2
+{
+    background: url(https://i.pinimg.com/originals/17/97/67/1797674e10dabdad19eec60aaeb986c4.jpg);
+    background-size: cover;
+    float: right;
+}
+.image3
+{
+    background: url(https://i.pinimg.com/originals/d6/43/a3/d643a3714fd0a96bb64c626f87138692.jpg);
+    background-size: cover;
+    float: left;
+}
+.image4
+{
+    background: url(https://i.pinimg.com/originals/49/aa/72/49aa72a316adb0f0a7d24bf94505ad60.jpg);
+    background-size: cover;
+    float: right;
+}
+.title_for_icareer
+{
+    padding-left: 5px;
+    padding-top: 5px;
+    font-size: 20px;
+    color: black;
+}
+#para_for_icareer
+{
+    margin-right: 15px;
+    text-align: justify;
+    word-spacing: 8px;
+    padding-top: 5px;
+    font-size: 14px;
+    word-wrap: normal;
+}
+h5
+{
+    font-size: 20px;
+    padding-left: 5px;
+}
+.para2
+{
+    margin-left: 10px;
+}
+.return
+{
+    margin-left: 2px;
+    margin-right: 3px;
+    padding-left: 5px;
+    font-weight: bold;
+    border-width:medium;
+}
+.statementBy
+{
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 45%;
+}
+.personal_life
+{
+    padding-left: 10px;
+    margin-top: 100px;
+    box-sizing:content-box;
+    width: 60%;
+    margin-left: 20%;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: linear-gradient(-45deg,#4f6dc9,#9c4343);
+}
+.image5,.image6,.image7,.image8,.image9,.image10,.image11,.image12
+{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+.image5
+{
+    background: url(https://content.api.news/v3/images/bin/93ad86b726c0572133116373abaf8d25?width=650);
+    background-size: cover;
+    float: left;
+}
+.image6
+{
+    background: url(https://i.pinimg.com/originals/93/46/5c/93465c8d6272f26fe1f4f2dd901b3ff4.jpg);
+    background-size: cover;
+    float: left;
+}
+.image7
+{
+    background: url(https://pbs.twimg.com/media/DgC73i9W4AAZHVj.jpg);
+    background-size: cover;
+    float: right;
+}
+.image8
+{
+    background: url(http://estaticos01.cache.el-mundo.net/elmundodeporte/especiales/2006/08/liga/primeradivision/equipos/img/estrellas/barcelona.jpg);
+    background-size: cover;
+    float: left;
+}
+.image9
+{
+    background: url(https://qph.fs.quoracdn.net/main-qimg-5f7e16281e97c15a0201dac1add0b96c.webp);
+    background-size: cover;
+    float: right;
+}
+.image10
+{
+    background: url(https://img.fifa.com/image/upload/t_s2/vhvxj4ph5ghdfetazvn0.jpg);
+    background-size: cover;
+    float: left;
+}
+.image11
+{
+    background: url(https://www.aljazeera.com/wp-content/uploads/2013/01/201317193118732734_20.jpeg?fit=680%2C450);
+    background-size: cover;
+    float: right;
+}
+.image12
+{
+    background: url(https://www.telegraph.co.uk/content/dam/football/2019/12/02/TELEMMGLPICT000217902338_trans_NvBQzQNjv4BqLf6XVudQ0d-fF3pHUPFzEIeaWVVFN-Vx1uCOgKfX0Y4.jpeg);
+    background-size: cover;
+    float: left;
+}
+.title_for_pl,.title_for_ccareer
+{
+    padding-left: 5px;
+    padding-top: 5px;
+    font-size: 20px;
+    color: black;
+}
+#para_for_pl,#para_for_ccareer
+{
+    margin-right: 15px;
+    text-align: justify;
+    word-spacing: 8px;
+    padding-top: 5px;
+    font-size: 14px;
+    word-wrap: normal;
+}
+footer
+{
+    background: linear-gradient(-45deg,#4f6dc9,#9c4343);
+    margin-top: 10px;
+}
+.footer_image
+{
+    height: 100px;
+    width: 100px;
+}
+.list2
+{
+    padding-top: 10px;
+}
+li
+{
+    list-style: none;
+}
+#hd
+{
+    font-weight: 1000;
+}
+#list
+{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+}
+#homeButton
+{
+    color: #0f0f80;
+}
+#profile,#personal_info,#ccareer_info,#icareer_info
+{
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 420px;
+    width: 50%;
+    box-sizing:content-box;
+    background: linear-gradient(45deg,#4f6dc9,#9c4343);
+}
+#personal_info,#ccareer_info,#icareer_info
+{
+    display: none;
+}
+#elife
+{
+    display: block;
+}
+#main2
+{
+    display: none;
+}
+#pl
+{
+    display: none;
+}
+#main3
+{
+    display: none;
+}
+button
+{
+    border: none;
+    background: none;
+}
+.quotes
+{
+    color: black;
+    font-family: 'Reggae One', cursive;
+    font-weight: bolder;
+}
+@media(max-width:1078px)
+{
+    #elife
+    {
+        margin-top: 0px;
+        box-sizing:content-box;
+        width: 100%;
+        margin-left: 0;
+        border:none;
+    }
+    #profile,#personal_info,#ccareer_info,#icareer_info
+    {   
+        justify-content: space-between;
+        margin-top: 100px;
+        margin-left: 0;
+        width: 100%;
+        box-sizing:content-box;
+        background: linear-gradient(45deg,#4f6dc9,#9c4343);
+    }
+    .icareer,.personal_life,.ccareer
+    {
+        margin-top: 10px;
+        box-sizing:content-box;
+        width: 98%;
+        margin-left: 0;
+        border:none;
+    }
+}
